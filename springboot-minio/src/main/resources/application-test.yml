@@ -1,0 +1,11 @@
+server:
+  port: 9091
+
+
+minio:
+  url:
+  access:
+    name: admin
+    secret: admin123
+  bucket:
+    name: tt
