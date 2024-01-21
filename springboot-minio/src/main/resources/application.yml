@@ -2,4 +2,4 @@ server:
   port: 9091
 spring:
   profiles:
-    active: test
+    active: local

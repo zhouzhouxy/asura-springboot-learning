@@ -9,6 +9,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>springboot-minio</module>
+        <module>java8-function</module>
     </modules>
 
     <parent>

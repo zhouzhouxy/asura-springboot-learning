@@ -55,7 +55,7 @@ public class FileStorageService {
                             .object(objectName).stream(is, file.getSize(), -1)
                             .contentType(file.getContentType())
                             .build());
-            return url+"/"+bucketName+"/"+objectName;
+            return url+bucketName+"/"+objectName;
         } catch (Exception e) {
             throw new RuntimeException("Error uploading file", e);
         }
